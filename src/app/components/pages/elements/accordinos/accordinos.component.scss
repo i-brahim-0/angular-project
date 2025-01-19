@@ -1,0 +1,75 @@
+/**accordion**/
+.temp_accordions_wrapper {
+  padding: 70px 0;
+  position: relative;
+}
+
+.temp_accordion .panel-title a {
+  display: inherit;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.accordion {
+  margin-bottom: 50px;
+  float: left;
+  width: 100%;
+}
+
+.temp_accordion .panel-heading {
+  padding: 18px 15px;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.temp_accordion .panel-title a:after {
+  content: "\f106";
+  position: absolute;
+  font-family: FontAwesome;
+  left: -55px;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  color: #00bfd8;
+  border: 1px solid #00bfd8;
+}
+
+.temp_accordion .panel-title a:focus:after {
+  content: "\f107";
+}
+
+.temp_accordion .collapse {
+  position: relative;
+}
+
+.temp_accordion {
+  width: 100%;
+  float: right;
+  padding-left: 55px;
+}
+
+.accordion1.temp_accordion .panel-title a:after {
+  border-radius: 30px;
+  border-color: #de2574;
+  background-color: #de2574;
+  color: #ffffff;
+}
+
+.toggle1 .panel-heading {
+  padding: 18px 15px;
+  background-color: #ffffff;
+}
+
+.toggle2 .panel-heading {
+  background-color: #de2574;
+  color: #fff;
+  padding: 18px 15px;
+}
+
+.toggle2 .collapse.in {
+  border: none;
+}
+/**accordion**/

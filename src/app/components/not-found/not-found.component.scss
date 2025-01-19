@@ -1,0 +1,36 @@
+/**error page**/
+.temp_error_wrapper {
+  background-image: url("../../../assets/images/error_bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 370px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.error_detail {
+  text-align: center;
+  padding: 100px 0;
+}
+
+.error_detail h1 {
+  font-size: 200px;
+  line-height: 200px;
+  color: #00bfd8;
+  text-transform: capitalize;
+}
+
+.error_detail h2 {
+  font-size: 20px;
+  line-height: 25px;
+  color: #000000;
+  padding-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.error_detail p {
+  padding: 0 50px;
+}
+
+/**error page**/

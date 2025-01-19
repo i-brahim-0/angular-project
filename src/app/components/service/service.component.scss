@@ -1,0 +1,117 @@
+/***************************************
+4. service start
+****************************************/
+.temp_service_wrapper {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  position: relative;
+}
+
+.service_section {
+  padding: 48px 30px;
+  background: #ffffff;
+  border-radius: 0;
+  margin-bottom: 0;
+  text-align: center;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  border-bottom: dashed 1px #00bfd8;
+  border-left: dashed 1px #00bfd8;
+}
+
+.service_section:hover img {
+  transform: translateY(-10px);
+}
+
+.service_section img {
+  transition: all 0.3s ease-out;
+}
+
+.service_section.service_boder1 {
+  border-left: none;
+}
+
+.service_section.service_boder6 {
+  border-bottom: none;
+}
+
+.temp_services .col-lg-4.col-md-4.col-sm-6.col-xs-12 {
+  padding: 0;
+}
+
+.service_section:hover .subheading {
+  color: #00bfd8;
+}
+
+.service_section .paragraph {
+  padding: 0 15px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.service_section .subheading {
+  padding-bottom: 10px;
+}
+
+.service_section .subheading a {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+/**painting servive**/
+.painting_service {
+  background-color: #f5f5f5;
+  padding-top: 90px;
+  padding-bottom: 80px;
+}
+
+.service_number {
+  border: 5px solid rgb(0 191 216 / 19%);
+  width: 180px;
+  height: 180px;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  border-radius: 10px;
+  text-align: center;
+  padding-top: 40px;
+  background: #f5f5f5;
+  transition: 0.3s;
+}
+
+.service_section:hover .service_number {
+  border: 5px solid #00bfd8;
+}
+
+.service_right {
+  padding-left: 160px;
+}
+
+.painting_service .service_section {
+  background: #fff;
+  padding: 30px 35px;
+  display: flex;
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.07);
+  margin-bottom: 60px;
+  border-radius: 10px;
+  border: none;
+}
+
+.painting_service .service_section .paragraph {
+  padding: 0px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.painting_service .service_section .subheading {
+  font-size: 20px;
+}
+
+/***************************************
+4. service end
+****************************************/

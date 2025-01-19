@@ -1,0 +1,196 @@
+/** Buttons **/
+.temp_buttons_wrapper {
+  padding-top: 90px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.buttons_wrapper1 {
+  display: inline-block;
+  border-bottom: 1px dashed #00bfd8;
+  margin-bottom: 50px;
+}
+
+.temp_buttons_wrapper .container {
+  text-align: center;
+}
+
+.buttons_wrapper1 .temp_btn1,
+.buttons_wrapper1 .temp_btn2,
+.buttons_wrapper1 .temp_btn3,
+.buttons_wrapper1 .temp_btn4 {
+  display: inline-block;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  box-shadow: none;
+  text-shadow: none;
+  text-decoration: none !important;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  margin-bottom: 50px;
+  text-align: center;
+  margin: 25px 20px;
+  padding: 20px 30px;
+}
+
+.buttons_wrapper1 .temp_btn1:hover,
+.buttons_wrapper1 .temp_btn2:hover,
+.buttons_wrapper1 .temp_btn3:hover,
+.buttons_wrapper1 .temp_btn4:hover {
+  --x: 100%;
+}
+
+.temp_menu_wrapper_right:hover {
+  --x: 100%;
+  color: #ffffff;
+}
+
+.buttons_wrapper1 .temp_btn2 {
+  font-size: 17px;
+  padding: 15px 30px;
+}
+
+.buttons_wrapper1 .temp_btn3 {
+  font-size: 15px;
+  padding: 10px 18px;
+}
+
+.buttons_wrapper1 .temp_btn4 {
+  font-size: 13px;
+  padding: 5px 20px;
+}
+
+.btn2 {
+  background: transparent !important;
+  color: #00bfd8 !important;
+  border: 1px solid #00bfd8 !important;
+  position: relative;
+  z-index: 1;
+}
+
+.btn2:after {
+  position: absolute;
+  left: 0;
+  content: "";
+  right: 0;
+  top: 0;
+  bottom: 100%;
+  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  z-index: -1;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+
+.btn2:hover:after {
+  bottom: 0;
+}
+
+.btn2:hover {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+.btn3 {
+  border-radius: 50px !important;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.btn3:after {
+  position: absolute;
+  left: 1px;
+  content: "";
+  right: 100%;
+  top: 1px;
+  bottom: 1px;
+  background: #fff;
+  border-radius: 50px !important;
+  z-index: -1;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+
+.btn3:hover:after {
+  right: 1px;
+}
+
+.btn3:hover {
+  color: #00bfd8 !important;
+  opacity: 1 !important;
+}
+
+.btn4 {
+  background: transparent !important;
+  color: #00bfd8 !important;
+  border: 1px solid #00bfd8 !important;
+  border-radius: 50px !important;
+  position: relative;
+  z-index: 1;
+}
+
+.btn4:after {
+  position: absolute;
+  left: 50%;
+  content: "";
+  right: 50%;
+  top: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  border-radius: 50px !important;
+  z-index: -1;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  opacity: 0;
+}
+
+.btn4:hover:after {
+  right: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.btn4:hover {
+  color: #fff !important;
+  opacity: 1 !important;
+}
+
+.btn5 {
+  border-radius: 50px !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+}
+
+.btn5:hover {
+  border-top-left-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+}
+
+/** Buttons **/

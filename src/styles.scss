@@ -1,0 +1,393 @@
+@import "./assets/css/responsive.scss";
+
+/***************************************
+2. Modules - reusable parts of our design start
+****************************************/
+.padder_left0 {
+  padding-left: 0px;
+}
+
+.toppadder10 {
+  padding-top: 10px;
+}
+
+.toppadder20 {
+  padding-top: 20px;
+}
+
+.toppadder30 {
+  padding-top: 30px;
+}
+
+.toppadder40 {
+  padding-top: 40px;
+}
+
+.toppadder50 {
+  padding-top: 50px;
+}
+
+.toppadder60 {
+  padding-top: 60px;
+}
+
+.toppadder70 {
+  padding-top: 70px;
+}
+
+.toppadder80 {
+  padding-top: 80px;
+}
+
+.toppadder90 {
+  padding-top: 90px;
+}
+
+.toppadder100 {
+  padding-top: 100px;
+}
+
+.bottompadder10 {
+  padding-bottom: 10px;
+}
+
+.bottompadder20 {
+  padding-bottom: 20px;
+}
+
+.bottompadder30 {
+  padding-bottom: 30px;
+}
+
+.bottompadder40 {
+  padding-bottom: 40px;
+}
+
+.bottompadder50 {
+  padding-bottom: 50px;
+}
+
+.bottompadder60 {
+  padding-bottom: 60px;
+}
+
+.bottompadder70 {
+  padding-bottom: 70px;
+}
+
+.bottompadder80 {
+  padding-bottom: 80px;
+}
+
+.bottompadder90 {
+  padding-bottom: 90px;
+}
+
+.bottompadder100 {
+  padding-bottom: 100px;
+}
+
+.temp_btn {
+  display: inline-block;
+  height: 50px;
+  min-width: 150px;
+  text-align: center;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 0px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  padding: 0 30px;
+  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  box-shadow: none;
+  text-shadow: none;
+  text-decoration: none !important;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+}
+
+.temp_btn:hover {
+  --x: 100%;
+  color: #ffffff;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.heading_wrapper {
+  width: auto;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.heading_wrapper .right {
+  float: right;
+  margin-right: -30px;
+  margin-top: -20px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: capitalize;
+  margin: 0;
+  letter-spacing: 0.3px;
+  line-height: 30px;
+  color: #000000;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.subheading {
+  font-size: 22px;
+  line-height: 25px;
+  letter-spacing: 0.4px;
+  font-weight: 600;
+  margin: 0;
+  text-transform: capitalize;
+  color: #444444;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0px;
+  color: #666666;
+  transition: all 0.3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+}
+
+.italic {
+  padding: 0 110px;
+  padding-bottom: 50px;
+}
+
+ul.social_icon {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+ul.social_icon > li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+ul.social_icon > li:last-child {
+  margin-right: 0px;
+}
+
+#error {
+  margin: 0;
+  padding: 12px 0;
+}
+
+.temp_hover {
+  position: relative;
+}
+
+.temp_hover:hover .temp_overlay:after,
+.temp_hover:hover .overlay_detail > a,
+.temp_hover:hover .overlay_detail p {
+  opacity: 1;
+  visibility: visible;
+}
+
+.temp_hover .temp_overlay:after {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.72);
+  top: 0;
+  left: 0;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+
+.news_section .temp_hover p {
+  color: #ffffff;
+  font-size: 16px;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  width: fit-content;
+  margin: auto;
+  text-transform: capitalize;
+  background-color: #fff;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  transition: all 0.5s;
+}
+
+.news_section .temp_hover p:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+/***************************************
+2. Modules - reusable parts of our design end
+****************************************/
+
+/**************
+Svg Border start
+***************/
+
+.svg_border {
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+}
+
+.svg_border1 {
+  position: absolute;
+  top: 0;
+  z-index: 2;
+}
+.svg_border2 {
+  position: relative;
+  top: -50px;
+  left: 0;
+  z-index: 2;
+}
+
+svg.svg_border path,
+svg.svg_border1 path,
+svg.svg_border2 path {
+  fill: #fff;
+}
+
+svg.svg_border2.color_gry path,
+svg.svg_border1.color_gry path {
+  fill: #f5f5f5;
+}
+
+svg.svg_border2.color_gryF path {
+  fill: #27323e;
+}
+
+/**************
+Svg Border end
+***************/
+
+/*-----------------------------
+1. primary css
+------------------------------*/
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin: 0px;
+  color: #666666;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none !important;
+}
+
+a:hover,
+a:focus {
+  color: inherit;
+}
+
+:focus {
+  outline: none;
+  border-color: inherit;
+}
+
+::selection {
+  background: #00bfd8;
+  color: #fff;
+}
+
+.show-submenu {
+  display: none;
+}
+
+.temp_loader_wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 999;
+  background-color: #ffffff;
+}
+
+.temp_loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+/*-----------------------------
+1. primary css end
+------------------------------*/

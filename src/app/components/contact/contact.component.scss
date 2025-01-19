@@ -1,0 +1,131 @@
+/***************************************
+11. contact start
+****************************************/
+.temp_getintouch_wrapper {
+  background-color: #f5f5f5;
+  padding: 60px 0 170px;
+  position: relative;
+}
+
+.temp_contact_form {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.temp_contact_form .form-control,
+.comment-respond .form-control,
+.widget_search .form-control {
+  background-color: transparent;
+  border: 1px solid #e6e6e6;
+  height: 50px;
+  line-height: 50px;
+  font-size: 15px;
+  color: #999999;
+  box-shadow: none;
+  border-radius: 10px;
+}
+
+.comment-respond .form-group {
+  text-align: left;
+  clear: both;
+}
+
+.temp_contact_form .form-control::-moz-placeholder,
+.comment-respond .form-control::-moz-placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.temp_contact_form .form-control:-ms-input-placeholder,
+.comment-respond .form-control:-ms-input-placeholder {
+  color: #999999;
+}
+
+.temp_contact_form .form-control::-webkit-input-placeholder,
+.comment-respond .form-control::-webkit-input-placeholder {
+  color: #999999;
+}
+
+.temp_contact_form .message .form-control,
+.comment-respond .message .form-control {
+  width: 100%;
+  line-height: 20px;
+  resize: none;
+  min-height: 100px;
+}
+
+.temp_contact_form .form-control:focus,
+.comment-respond .form-control:focus {
+  border-color: #00bfd8;
+}
+
+.temp_contact_form_right,
+.temp_contact_form {
+  background: #fff;
+  box-shadow: 0px 12px 29px 0px rgba(0, 0, 0, 0.07);
+  padding: 50px 40px;
+  border-radius: 10px;
+}
+
+.temp_contact_form_right ul {
+  padding: 0;
+  list-style: none;
+}
+
+.temp_contact_form_right li {
+  padding-bottom: 10px;
+  margin-top: 10px;
+  border-bottom: 1px solid #ececec;
+  font-size: 16px;
+  display: flex;
+}
+
+.temp_contact_form_right li i {
+  padding-right: 15px;
+  color: #00bfd8;
+  font-size: 18px;
+}
+
+.temp_contact_form_right li a {
+  transition: 0.3s;
+}
+
+.temp_contact_form_right li a:hover {
+  color: #00bfd8;
+}
+
+.temp_getintouch_wrapper .form-group {
+  padding-bottom: 15px;
+}
+
+.temp_contact_form svg {
+  position: absolute;
+  top: 35px;
+  right: 30px;
+  opacity: 0.1;
+}
+
+.temp_contact_form {
+  padding: 50px 240px 25px 40px;
+}
+
+.temp_contact_form_right {
+  width: 500px;
+  position: absolute;
+  bottom: -75px;
+  right: -286px;
+}
+
+.temp_contact_form_right li:last-child {
+  border: none;
+  padding: 0;
+}
+
+.ed_element_wrapper_map iframe {
+  width: 100%;
+}
+
+/***************************************
+11. contact end
+****************************************/

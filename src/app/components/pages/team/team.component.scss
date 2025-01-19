@@ -1,0 +1,133 @@
+/***************************************
+5. team start
+****************************************/
+.temp_team_wrapper {
+  padding-top: 40px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.temp_team_wrapper.temp_team_s {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.team_section {
+  background-color: #f5f5f5;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 5px 20px 0px rgba(0, 0, 0, 0.2);
+  border-bottom: solid #d1f5ff;
+}
+
+.team_section.m_t_5 {
+  margin-top: 50px;
+}
+
+.team_section .subheading {
+  padding: 10px 0 0;
+  font-size: 18px;
+}
+
+.team_section .subheading:hover {
+  color: #00bfd8;
+}
+
+.team_section img {
+  transition: all 0.3s;
+}
+
+.team_section:hover img {
+  transform: scale(1.1);
+}
+
+.team_section .paragraph {
+  color: #00bfd8;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+}
+
+.team_section ul.social_icon > li {
+  display: inline-block;
+  transition: 0.3s;
+  margin: 0;
+  transform: translateY(20px);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.team_section ul.social_icon > li:hover a {
+  color: #00bfd8;
+}
+
+.team_section ul.social_icon > li a {
+  transition: 0.3s;
+  width: 35px;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 12px 25px 0 rgb(0 0 0 / 7%);
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+}
+
+.team_section ul.social_icon {
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  transition: 0.3s;
+  transform: translateY(-50%);
+}
+
+.team_section:hover ul.social_icon .li1 {
+  transition-delay: 0.2s;
+}
+
+.team_section:hover ul.social_icon .li2 {
+  transition-delay: 0.3s;
+}
+
+.team_section:hover ul.social_icon .li3 {
+  transition-delay: 0.4s;
+}
+
+.team_section:hover ul.social_icon .li4 {
+  transition-delay: 0.5s;
+}
+
+.team_img {
+  position: relative;
+  overflow: hidden;
+}
+
+.team_img:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.72);
+  top: -250px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.team_section:hover .team_img:after,
+.team_section:hover ul.social_icon li {
+  visibility: visible;
+  opacity: 1;
+  top: 0;
+}
+
+.team_section:hover ul.social_icon li {
+  transform: translateY(0px);
+}
+
+/***************************************
+5. team end
+****************************************/

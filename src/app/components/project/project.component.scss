@@ -1,0 +1,74 @@
+/***************************************
+7. gallery start
+****************************************/
+.temp_gallery_wrapper {
+  background-color: #f5f5f5;
+  padding-top: 90px;
+  padding-bottom: 110px;
+  position: relative;
+}
+
+.galleries {
+  width: 50%;
+  float: left;
+}
+
+.gallery_section {
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery_section:hover {
+  opacity: 1;
+}
+
+.gallery_section img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.gallery_section:hover img {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.temp_hover svg path {
+  fill: #fff;
+}
+
+.temp_gallery_wrapper.temp_project {
+  padding: 70px 0 60px;
+}
+
+.gallery_section .overlay_detail span {
+  color: #ffffff;
+  font-size: 35px;
+  display: inline-block;
+  position: absolute;
+  top: 45%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 2;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s;
+  width: fit-content;
+  margin: auto;
+}
+
+.gallery_section:hover .overlay_detail span {
+  opacity: 1;
+  visibility: visible;
+}
+
+/***************************************
+7. gallery end
+****************************************/

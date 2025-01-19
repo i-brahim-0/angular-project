@@ -1,0 +1,152 @@
+/***************************************
+12. footer start
+****************************************/
+.temp_footer_wrapper {
+  background: #27323e;
+  padding-top: 90px;
+  position: relative;
+}
+
+.temp_footer_wrapper.contactF {
+  padding-top: 38px;
+}
+
+.footer_section {
+  padding-bottom: 60px;
+}
+
+.footer_section .subheading {
+  font-size: 22px;
+  color: #ffffff;
+  padding: 0 0 20px;
+  line-height: 30px;
+  float: left;
+  width: 100%;
+}
+
+.temp_copyright {
+  width: 100%;
+  display: inline-block;
+  border-top: 1px solid #808080;
+  padding: 15px 0;
+}
+
+.temp_footer_Section .logo {
+  margin-bottom: 20px;
+}
+
+.temp_footer_Section p,
+.temp_copyright p {
+  color: #bdbdbd;
+  line-height: 24px;
+}
+
+.temp_copyright a {
+  color: #00bfd8;
+}
+
+.temp_footer_Section ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+.temp_footer_Section li {
+  padding: 2px 0;
+  color: #bdbdbd;
+}
+
+.temp_footer_Section li a {
+  transition: 0.3s;
+}
+
+.temp_footer_Section li a:hover {
+  color: #00bfd8;
+}
+
+.footer_flex {
+  float: left;
+  width: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer_left {
+  width: 100px;
+}
+
+.footer_right {
+  width: 250px;
+  padding-left: 10px;
+}
+
+.footer_right p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.footer_left img {
+  border-radius: 10px;
+}
+
+.footer_right a {
+  font-size: 18px;
+  color: #fff;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.footer_right a:hover {
+  color: #00bfd8;
+}
+
+.footer_section.f_sec3 ul {
+  width: 100%;
+}
+
+.footer_section.f_sec3 li {
+  display: inline-block;
+  padding: 0;
+}
+
+.footer_section.f_sec3 li img {
+  border-radius: 10px;
+  width: 70px;
+  margin-right: 5px;
+}
+
+.footer_flex.bottompadder20:after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 5px;
+  width: 65px;
+  height: 1px;
+  background: #00bfd8;
+}
+
+.footer_flex.bottompadder20:before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 73px;
+  width: 170px;
+  height: 1px;
+  background: #ddd;
+}
+
+.footer_section.sec4.bottompadder60 li {
+  display: flex;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.footer_section.sec4.bottompadder60 li i {
+  padding-right: 10px;
+  color: #00bfd8;
+}
+
+/***************************************
+12. footer end
+****************************************/
