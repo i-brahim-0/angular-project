@@ -31,16 +31,8 @@
             ],
             "styles": [
               "./node_modules/@fortawesome/fontawesome-free/css/all.min.css",
-              "src/assets/css/animate.css",
-              "src/assets/css/animate.css",
-              "src/assets/css/custom_animation.css",
-              "src/assets/css/font-awesome.min.css",
               "src/assets/css/fonts.css",
-              "src/assets/css/magnific-popup.css",
               "src/assets/css/main.css",
-              "src/assets/css/swiper.min.css",
-              "src/assets/css/style.css",
-              "src/assets/css/responsive.scss",
               "src/styles.scss"
             ],
             "scripts": []

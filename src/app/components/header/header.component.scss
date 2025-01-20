@@ -109,8 +109,7 @@
 }
 
 .top_header .top_head_right {
-  display: flex;
-  justify-content: flex-end;
+  float: right;
   width: auto;
 }
 
@@ -397,5 +396,4 @@ li.submenu_level_two ul.submenu:after {
 }
 
 /**inner header end**/
-
-@import "../../../styles.scss";
+@import "../../../assets/css/responsive.scss";

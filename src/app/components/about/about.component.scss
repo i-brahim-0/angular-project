@@ -41,6 +41,7 @@
 
 .abhout_left .paragraph {
   display: -webkit-box;
+  -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -95,3 +96,4 @@ li.breadcrumb-item.active .paragraph {
 }
 
 /**about**/
+@import "../../../assets/css/responsive.scss";

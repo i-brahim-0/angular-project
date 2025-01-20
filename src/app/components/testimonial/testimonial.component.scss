@@ -59,6 +59,7 @@
   margin-top: 10px;
   line-height: 28px;
   display: -webkit-box;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-align: center;
@@ -72,3 +73,4 @@
 /***************************************
 8. testimonial end
 ****************************************/
+@import "../../../assets/css/responsive.scss";
