@@ -20,6 +20,14 @@
   outline: none;
 }
 
+.logo a img {
+    margin-top: 10px;
+    width: 200px;
+    height: 50px;
+    outline-style: auto;
+    outline-color: blue;
+}
+
 .top_header .top_ul_info {
   list-style: none;
   padding: 10px 0 0;
@@ -56,24 +64,25 @@
 }
 
 .top_ul_social li a {
-  fill: #00bfd8;
+  fill: var(--main-color);
   transition: 0.3s;
   background: #fff;
   width: 35px;
   height: 35px;
   line-height: 40px;
-  border-radius: 5px;
+  border-radius: 50%;
   text-align: center;
   display: inline-block;
-  transform: rotate(45deg);
+  // transform: rotate(45deg);
 }
 
 .top_ul_social li a svg {
-  transform: rotate(-50deg);
+  // transform: rotate(-50deg);
 }
 
 .top_ul_social li a:hover {
   fill: #444444;
+  background-color:var(--main-color);
 }
 
 .top_header .top_ul_info .temp_li_flex {
@@ -155,7 +164,7 @@
   color: #ffffff;
   border-radius: 10px;
   margin-top: 11px;
-  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  background: var(--bg-gradiant) var(--x, 0) / 200%;
   transition: all 0.3s ease-out;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
@@ -272,11 +281,11 @@ li.submenu_level_two ul.submenu:after {
 }
 
 .temp_menu ul > li > ul.submenu > li > a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_menu ul > li > a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_menu ul > li > ul.submenu:after {
@@ -322,8 +331,8 @@ li.submenu_level_two ul.submenu:after {
 }
 
 #temp_exampleModal .modal-footer button {
-  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
-  border-color: #00bfd8;
+  background: var(--bg-gradiant) var(--x, 0) / 200%;
+  border-color: var(--main-color);
   color: #fff;
   outline: none;
   margin-right: 18px;
@@ -332,7 +341,7 @@ li.submenu_level_two ul.submenu:after {
 
 #temp_exampleModal .form-group input:focus,
 #temp_exampleModal .form-group textarea:focus {
-  border-color: #00bfd8;
+  border-color: var(--main-color);
 }
 
 #temp_exampleModal .form-group input,

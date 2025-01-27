@@ -51,12 +51,12 @@
 }
 
 li.breadcrumb-item.active .paragraph {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_about_wrapper .heading span,
 .temp_about_banner .heading span {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_about_banner .about_right {
@@ -76,7 +76,7 @@ li.breadcrumb-item.active .paragraph {
 }
 
 .temp_about_banner .about_right .play_button:hover path {
-  fill: #00bfd8;
+  fill: var(--main-color);
 }
 
 .temp_about_banner .about_right .play_button path {

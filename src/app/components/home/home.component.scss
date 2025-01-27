@@ -27,7 +27,7 @@
 
 .p_banner_right h1 span {
   display: block;
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_banner_slider h1 {
@@ -46,7 +46,7 @@
 }
 
 .temp_banner_slider .p_banner1 h1 span {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_banner_slider .p_banner1 h1:after {
@@ -55,7 +55,7 @@
   bottom: -12px;
   left: 0;
   right: 0;
-  background: #00bfd8;
+  background: var(--main-color);
   width: 120px;
   height: 5px;
   margin: auto;

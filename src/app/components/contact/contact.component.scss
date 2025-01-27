@@ -57,7 +57,7 @@
 
 .temp_contact_form .form-control:focus,
 .comment-respond .form-control:focus {
-  border-color: #00bfd8;
+  border-color: var(--main-color);
 }
 
 .temp_contact_form_right,
@@ -83,7 +83,7 @@
 
 .temp_contact_form_right li i {
   padding-right: 15px;
-  color: #00bfd8;
+  color: var(--main-color);
   font-size: 18px;
 }
 
@@ -92,7 +92,7 @@
 }
 
 .temp_contact_form_right li a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_getintouch_wrapper .form-group {

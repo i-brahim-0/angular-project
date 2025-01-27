@@ -42,7 +42,7 @@
 }
 
 .temp_copyright a {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .temp_footer_Section ul {
@@ -60,7 +60,7 @@
 }
 
 .temp_footer_Section li a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .footer_flex {
@@ -99,7 +99,7 @@
 }
 
 .footer_right a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .footer_section.f_sec3 ul {
@@ -124,7 +124,7 @@
   left: 5px;
   width: 65px;
   height: 1px;
-  background: #00bfd8;
+  background: var(--main-color);
 }
 
 .footer_flex.bottompadder20:before {
@@ -145,7 +145,7 @@
 
 .footer_section.sec4.bottompadder60 li i {
   padding-right: 10px;
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 /***************************************

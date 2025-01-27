@@ -1,3 +1,10 @@
+
+:root {
+ --main-color: #00bfd8;
+ --bg-gradiant: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2);
+}
+
+
 /***************************************
 2. Modules - reusable parts of our design start
 ****************************************/
@@ -100,7 +107,7 @@
   border: none;
   border-radius: 10px;
   padding: 0 30px;
-  background: linear-gradient(90deg, #00a7ca, #00c9d0 51%, #0087a2) var(--x, 0) / 200%;
+  background:var(--bg-gradiant) var(--x, 0) / 200%;;
   box-shadow: none;
   text-shadow: none;
   text-decoration: none !important;
@@ -357,7 +364,7 @@ a:focus {
 }
 
 ::selection {
-  background: #00bfd8;
+  background: var(--main-color);
   color: #fff;
 }
 

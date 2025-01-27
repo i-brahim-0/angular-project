@@ -18,8 +18,8 @@
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
-  border-bottom: dashed 1px #00bfd8;
-  border-left: dashed 1px #00bfd8;
+  border-bottom: dashed 1px var(--main-color);
+  border-left: dashed 1px var(--main-color);
 }
 
 .service_section:hover img {
@@ -43,7 +43,7 @@
 }
 
 .service_section:hover .subheading {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .service_section .paragraph {
@@ -86,7 +86,7 @@
 }
 
 .service_section:hover .service_number {
-  border: 5px solid #00bfd8;
+  border: 5px solid var(--main-color);
 }
 
 .service_right {

@@ -391,7 +391,7 @@
   .temp_tooltip .tooltiptext {
     visibility: hidden;
     width: auto;
-    background-color: #00bfd8;
+    background-color: var(--primary-color);
     color: #fff;
     text-align: center;
     border-radius: 6px;
@@ -410,7 +410,7 @@
     margin-top: -5px;
     border-width: 5px;
     border-style: solid;
-    border-color: transparent transparent transparent #00bfd8;
+    border-color: transparent transparent transparent var(--primary-color);
   }
 
   .temp_tooltip:hover .tooltiptext {
@@ -418,7 +418,7 @@
   }
 
   .temp_menu_wrapper_right a svg path {
-    fill: #00bfd8;
+    fill: var(--primary-color);
   }
 
   .top_ul_social {
@@ -464,9 +464,9 @@
 
   .navbar-toggle {
     display: block;
-    background-color: #00bfd8;
+    background-color: var(--primary-color);
     margin: 20px 0 0 10px;
-    border-color: #00bfd8;
+    border-color: var(--primary-color);
     border-radius: 3px;
     padding: 7px;
     outline: none;

@@ -67,7 +67,7 @@
   left: 2px;
   width: 60px;
   height: 3px;
-  background: #00bfd8;
+  background: var(--main-color);
   bottom: 20px;
 }
 
@@ -113,7 +113,7 @@
 .widget_archive a:hover,
 .widget_categories a:hover,
 .rp_content a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .widget_archive a,
@@ -164,7 +164,7 @@
   position: absolute;
   top: 0;
   right: 0;
-  background: #00bfd8;
+  background: var(--main-color);
   padding: 5px 10px;
   color: #fff;
   font-size: 13px;
@@ -249,7 +249,7 @@
 }
 
 .widget_tag_cloud .locksmith_tag a:hover {
-  background-color: #00bfd8;
+  background-color: var(--main-color);
   color: #ffffff !important;
 }
 
@@ -327,7 +327,7 @@
 }
 
 .comments .content .date .reply > a:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .comments .content .date .reply {

@@ -18,110 +18,29 @@
           </p>
         </div>
         <div class="temp_team wow fadeIn">
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <div class="team_section text-center wow fadeInUp" data-wow-duration="1.5s">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" *ngFor="let team of teams">
+            <div class="team_section text-center fadeInUp">
               <div class="team_img">
-                <img src="assets/images/t1.jpg" alt="painter-team1" class="img-responsive" />
+                <img [src]="team.img" alt="painter-team1" class="img-responsive" />
               </div>
               <h2 class="subheading">
-                <a href="team.html">Fletch Skinner</a>
+                <a href="team.html">{{team.name}}</a>
               </h2>
               <div class="">
-                <h2 class="paragraph">Water Color Painter</h2>
+                <h2 class="paragraph">{{team.about}}</h2>
               </div>
               <ul class="social_icon">
                 <li class="li1">
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-facebook" aria-hidden="true"></i></a>
                 </li>
                 <li class="li2">
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
                 </li>
                 <li class="li3">
-                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
                 </li>
                 <li class="li4">
-                  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <div class="team_section text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="0.5s">
-              <div class="team_img">
-                <img src="assets/images/t2.jpg" alt="painter-team2" class="img-responsive" />
-              </div>
-              <h2 class="subheading">
-                <a href="team.html">Niles Peppertrout</a>
-              </h2>
-              <div class="">
-                <h2 class="paragraph">House Painter</h2>
-              </div>
-              <ul class="social_icon">
-                <li class="li1">
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li class="li2">
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li class="li3">
-                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </li>
-                <li class="li4">
-                  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <div class="team_section text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1s">
-              <div class="team_img">
-                <img src="assets/images/t3.jpg" alt="painter-team3" class="img-responsive" />
-              </div>
-              <h2 class="subheading">
-                <a href="team.html"> Benjamin Evalent</a>
-              </h2>
-              <div class=" ">
-                <h2 class="paragraph">Wood Painter</h2>
-              </div>
-              <ul class="social_icon">
-                <li class="li1">
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li class="li2">
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li class="li3">
-                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </li>
-                <li class="li4">
-                  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-            <div class="team_section text-center wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="1.5s">
-              <div class="team_img">
-                <img src="assets/images/t4.jpg" alt="painter-team4" class="img-responsive" />
-              </div>
-              <h2 class="subheading">
-                <a href="team.html">Gunther Beard</a>
-              </h2>
-              <div class="">
-                <h2 class="paragraph">Color Painter</h2>
-              </div>
-              <ul class="social_icon">
-                <li class="li1">
-                  <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                </li>
-                <li class="li2">
-                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </li>
-                <li class="li3">
-                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                </li>
-                <li class="li4">
-                  <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa-brands fa-google-plus" aria-hidden="true"></i></a>
                 </li>
               </ul>
             </div>

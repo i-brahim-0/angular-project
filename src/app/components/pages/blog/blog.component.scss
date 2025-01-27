@@ -59,7 +59,7 @@
 }
 
 .blog_detail .subheading {
-  color: #00bfd8;
+  color: var(--main-color);
   font-weight: 600;
   text-transform: capitalize;
   padding-bottom: 15px;
@@ -101,7 +101,7 @@
   margin-right: 5px;
   font-size: 13px;
   line-height: 20px;
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .news_section .temp_hover .temp_overlay .overlay_detail {
@@ -151,7 +151,7 @@
 .temp_news_wrapper.blog_temp .blog_detail h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #00bfd8;
+  color: var(--main-color);
   margin-bottom: 15px;
 }
 
@@ -168,7 +168,7 @@
 }
 
 .temp_news_wrapper .blog_detail .subheading:hover {
-  color: #00bfd8 !important;
+  color: var(--main-color) !important;
 }
 
 .news_section .temp_hover img {

@@ -8,7 +8,7 @@
 .nav-tabs,
 .nav-tabs > li.active > a,
 .nav-tabs > li:focus > a {
-  border-color: #00bfd8 !important;
+  border-color: var(--main-color) !important;
 }
 
 .nav-tabs > li > a {
@@ -18,8 +18,8 @@
 .nav-tabs > li > a:hover,
 .nav-tabs > li.active > a {
   background-color: #ffffff;
-  border-color: #00bfd8;
-  color: #00bfd8 !important;
+  border-color: var(--main-color);
+  color: var(--main-color) !important;
 }
 
 .tab-content {

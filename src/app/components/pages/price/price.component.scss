@@ -98,7 +98,7 @@
 }
 
 .pricing_table li .fa-times {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .pricing_table li {
@@ -168,7 +168,7 @@
 }
 
 .inner_price .temp_pricing_tables .heading {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .map {

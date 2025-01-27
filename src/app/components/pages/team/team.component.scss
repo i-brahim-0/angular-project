@@ -32,7 +32,7 @@
 }
 
 .team_section .subheading:hover {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .team_section img {
@@ -44,7 +44,7 @@
 }
 
 .team_section .paragraph {
-  color: #00bfd8;
+  color: var(--main-color);
   text-transform: capitalize;
   margin-bottom: 15px;
 }
@@ -59,7 +59,7 @@
 }
 
 .team_section ul.social_icon > li:hover a {
-  color: #00bfd8;
+  color: var(--main-color);
 }
 
 .team_section ul.social_icon > li a {
