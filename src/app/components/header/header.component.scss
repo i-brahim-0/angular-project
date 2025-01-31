@@ -12,7 +12,8 @@
 }
 
 .top_header {
-  background: linear-gradient(274deg, #86d3e3 0%, #02aab0 100%);
+  // background: linear-gradient(274deg, #86d3e3 0%, #02aab0 100%);
+  background: linear-gradient(274deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
   padding: 15px 100px;
 }
 
@@ -42,7 +43,8 @@
 
 .temp_header {
   padding: 0px 100px;
-  background: #d1f5ff;
+  // background: #d1f5ff;
+  background: #60efff;
 }
 
 .temp_header.header_fixed {
